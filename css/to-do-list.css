@@ -1,9 +1,19 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(0, 0, 0);
     color: white;
     margin-top: 100px;
-    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid wheat;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(28, 28, 28);
+    color: rgb(255, 255, 255);
 }
 
 .heading{
@@ -36,9 +46,10 @@ body{
 
 .todo-grid,.todo-input-grid{
     display: grid;
-    grid-template-columns: 170px 150px 100px 2000px;
+    grid-template-columns: 170px 150px 100px 200px;
     margin-bottom: 50px;
     column-gap: 10px;
     row-gap: 20px;
 }
+
 
